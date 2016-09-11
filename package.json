@@ -1,0 +1,21 @@
+{
+  "name": "testdsample",
+  "version": "0.0.1",
+  "description": "A simple command-line tool for operating the Dsampling protocol",
+  "author": "James Littlejohn",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "inquirer": "^1.1.2",
+    "kad": "^1.5.16",
+    "kad-localstorage": "0.0.7",
+    "kad-traverse": "0.0.4",
+    "web3": "^0.17.0-alpha"
+  },
+  "bin": {
+    "testdsample": "index.js"
+  }
+}
